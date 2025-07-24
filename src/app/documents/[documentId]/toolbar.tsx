@@ -3,7 +3,7 @@
 import { LucideIcon, UndoIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useEditorStore } from "@/store/use-editor-store";
-// import Editor from "./editor";
+import Editor from "./editor";
 
 interface ToolbarButtonProps {
   onClick?: () => void;
